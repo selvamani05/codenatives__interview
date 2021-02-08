@@ -1,0 +1,34 @@
+.cards__common__class {
+    min-height: 400px;
+    color: white;
+    justify-content: flex-end;
+}
+
+
+.card__column1 {
+    background: url(../images/Service1.jpg);
+}
+
+.card__column2 {
+    background: url(../images/Service2.jpg);
+}
+
+.card__text {
+    font-size: 25px;
+    padding: 22px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.card__readytext {
+    padding: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .mb-25 {
+        margin-bottom: 25px;
+    }
+
+
+}
